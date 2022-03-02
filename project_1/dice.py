@@ -53,5 +53,5 @@ def self_test():
 
 
     
-
-self_test()
+if __name__ == "__main__":
+    self_test()  
