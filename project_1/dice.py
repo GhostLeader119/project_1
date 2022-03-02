@@ -41,17 +41,3 @@ class enemy_dice(dice):
         self._max_value = 12
 
 
-def self_test():
-    exam = dice()
-    exam.roll()
-    me = exam.send_dice()
-    expiriment = enemy_dice()
-    expiriment.roll()
-    you = expiriment.send_dice()
-
-    print(f'Me: {me} You: {you}')
-
-
-    
-if __name__ == "__main__":
-    self_test()  
